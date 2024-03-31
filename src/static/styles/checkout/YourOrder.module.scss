@@ -1,0 +1,53 @@
+.yourOrder {
+  background-color: #f4f5f9;
+  padding: 2.5rem;
+}
+
+.title {
+  font-style: italic;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--textSubColor);
+}
+
+.textName,
+.textPrice {
+  padding: 0.8rem 0;
+  font-size: 0.9rem;
+}
+
+.textName {
+  width: 50%;
+  font-weight: 500;
+}
+
+.textPrice {
+  width: 50%;
+  color: var(--textSubColor);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+.textTotal {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.priceTotal {
+  font-size: 19px;
+}

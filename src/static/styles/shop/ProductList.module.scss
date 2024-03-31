@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  font-style: italic;
+  gap: 1rem;
+
+  .productsImg {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  h4 {
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+
+  p {
+    color: var(--textSubColor);
+    margin-top: 0.5rem;
+  }
+
+  .productsImg:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,50 @@
+.productsTrending {
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 3rem;
+
+  .mainTitle,
+  .subTitle {
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  .mainTitle {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .subTitle {
+    font-size: 0.9rem;
+    color: var(--textSubColor);
+    margin-bottom: 5px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    font-style: italic;
+    font-size: 0.9rem;
+
+    .productsImg {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    h4 {
+      font-weight: 500;
+      margin-top: 0.5rem;
+    }
+
+    p {
+      color: var(--textSubColor);
+    }
+
+    .productsImg:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+}

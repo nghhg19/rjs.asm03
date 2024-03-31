@@ -1,0 +1,46 @@
+.table thead tr th,
+.table tbody tr {
+  font-style: italic;
+}
+
+.table thead tr th {
+  background-color: #f4f5f9 !important;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.table tbody tr td:first-child {
+  padding: 1rem 0.5rem;
+}
+
+.table tbody tr {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table tbody tr td:nth-child(2) {
+  font-weight: 500;
+  width: 40%;
+}
+
+.table tbody tr td:nth-child(3),
+.table tbody tr td:nth-child(5) {
+  font-size: 0.9rem;
+  color: var(--textSubColor);
+}
+
+.table tbody tr td:nth-child(6) button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: var(--textSubColor);
+}
+
+.table tbody tr td:nth-child(6) button:hover {
+  color: rgb(218, 29, 29);
+}
+
+.icon {
+  cursor: pointer;
+}

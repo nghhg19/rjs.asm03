@@ -1,0 +1,74 @@
+.otherInfo {
+  margin-bottom: 4rem;
+
+  .info_title,
+  .info_subText {
+    font-style: italic;
+  }
+
+  .info_title {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+  }
+
+  .info_subText {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    color: var(--textSubColor);
+  }
+
+  .Info_flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 3rem 7rem;
+  }
+
+  .formSub {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+
+    .lableFrom {
+      .info_title {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .form {
+    display: flex;
+    border: solid 2px var(--textSubColor);
+    input {
+      width: 22rem;
+      padding: 1.2rem 1rem;
+      border: none;
+    }
+
+    input::placeholder {
+      color: var(--textSubColor);
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    .btn_subscribe {
+      cursor: pointer;
+      background-color: #383838;
+      color: #fffefc;
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+      transition: all 0.2s;
+      border: none;
+    }
+
+    .btn_subscribe:hover {
+      background-color: transparent;
+      // outline: 1px solid #383838;
+      color: #383838;
+    }
+  }
+}

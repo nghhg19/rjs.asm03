@@ -1,0 +1,36 @@
+.navbar {
+  // position: fixed;
+  justify-content: space-between;
+  font-style: italic;
+  padding: 1rem 15rem;
+
+  .flex {
+    gap: 1rem;
+    padding: 0 10px;
+    .home {
+      color: orange;
+    }
+  }
+
+  .boutique {
+    font-size: 700;
+    font-size: 1.3rem;
+  }
+
+  .cartLogin {
+    gap: 1rem;
+    .icon {
+      color: var(--textSubColor);
+      margin-right: 0.3rem;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
