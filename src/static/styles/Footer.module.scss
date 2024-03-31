@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 18rem;
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+
+  .footer_listItem {
+    color: aliceblue;
+    list-style: none;
+    font-style: italic;
+
+    .footer_title {
+      margin-bottom: 1rem;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    .footer_list_link {
+      margin-bottom: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--textSubColor);
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.cartTotal {
+  background-color: #f4f5f9;
+  padding: 40px;
+  .title {
+    font-style: italic;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    padding: 0.5rem 0;
+  }
+
+  .section_title,
+  .priceTotal {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .priceTotal,
+  .priceSub {
+    color: var(--textSubColor);
+  }
+
+  .btnApply {
+    cursor: pointer;
+
+    width: 100%;
+    color: #fff;
+    background-color: var(--backgroundColorBtn);
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.25s;
+  }
+
+  .btnApply:hover {
+    background-color: transparent;
+    color: var(--backgroundColorBtn);
+  }
+
+  .btnApply svg {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+}
+
+.cartTotal input {
+  height: 50px;
+  border: 1px solid var(--textSubColor);
+  outline: none;
+  width: 100%;
+  padding: 0 1rem;
+  z-index: 1000;
+}
+
+.cartTotal {
+  input:focus {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  }
+}
